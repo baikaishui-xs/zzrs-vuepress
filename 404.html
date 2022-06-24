@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.48">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title>你好， VuePress ！</title><meta name="description" content="这是我的第一个 VuePress 站点">
+    <link rel="modulepreload" href="/zzrs-vuepress/assets/app.2c38d72a.js"><link rel="modulepreload" href="/zzrs-vuepress/assets/404.html.a0374119.js"><link rel="modulepreload" href="/zzrs-vuepress/assets/404.html.265028f6.js"><link rel="prefetch" href="/zzrs-vuepress/assets/index.html.046bbeb7.js"><link rel="prefetch" href="/zzrs-vuepress/assets/frontmatter.html.a2af936a.js"><link rel="prefetch" href="/zzrs-vuepress/assets/index.html.68858846.js"><link rel="prefetch" href="/zzrs-vuepress/assets/demo1.html.88d66c85.js"><link rel="prefetch" href="/zzrs-vuepress/assets/index.html.cc67188c.js"><link rel="prefetch" href="/zzrs-vuepress/assets/frontmatter.html.46305477.js"><link rel="prefetch" href="/zzrs-vuepress/assets/index.html.9387636d.js"><link rel="prefetch" href="/zzrs-vuepress/assets/demo1.html.20230f29.js"><link rel="prefetch" href="/zzrs-vuepress/assets/404.c549cc9b.js"><link rel="prefetch" href="/zzrs-vuepress/assets/Layout.f0a372c3.js">
+    <link rel="stylesheet" href="/zzrs-vuepress/assets/style.9a77359e.css">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><div class="theme-default-content"><h1>404</h1><blockquote>Looks like we&#39;ve got some broken links.</blockquote><a href="/zzrs-vuepress/" class="">Take me home</a></div></div><!----><!--]--></div>
+    <script type="module" src="/zzrs-vuepress/assets/app.2c38d72a.js" defer></script>
+  </body>
+</html>
